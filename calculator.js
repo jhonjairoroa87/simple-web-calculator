@@ -27,22 +27,22 @@ function clickedDivideNumbersButton(){
 //////////////////////////////
 
 function callAddService(firstAddNumberValue, secondAddNumberValue){
-    var url = "http://flask-calculator-microservice.herokuapp.com/add?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
+    var url = "https://flask-calculator-microservice.herokuapp.com/add?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
 	basicAjaxCall(url,callAddServiceSuccess);
 }
 
 function callSubtractService(firstAddNumberValue, secondAddNumberValue){
-    var url = "http://flask-calculator-microservice.herokuapp.com/subtract?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
+    var url = "https://flask-calculator-microservice.herokuapp.com/subtract?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
     basicAjaxCall(url,callSubtractServiceSuccess);
 }
 
 function callMultiplyService(firstAddNumberValue, secondAddNumberValue){
-    var url = "http://django-calculator-microservice.herokuapp.com/multiply?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
+    var url = "https://django-calculator-microservice.herokuapp.com/multiply?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
     basicAjaxCall(url,callMultiplyServiceSuccess);
 }
 
 function callDivideService(firstAddNumberValue, secondAddNumberValue){
-    var url = "http://django-calculator-microservice.herokuapp.com/divide?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
+    var url = "https://django-calculator-microservice.herokuapp.com/divide?a="+firstAddNumberValue+"&b="+secondAddNumberValue;
     basicAjaxCall(url,callDivideServiceSuccess);
 }
 
